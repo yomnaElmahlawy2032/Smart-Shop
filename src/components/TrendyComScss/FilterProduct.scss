@@ -1,0 +1,675 @@
+.filterProducts{
+    display: grid;
+    grid-template-columns: 70% 20%;
+}
+.filterProducts .filterPro .filter{
+    display: flex;
+    width: 688px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: rgba(147, 202, 222, 0.05);
+    margin-left: 12%;
+    margin-top: 50px;
+}
+.filterProducts .filterPro .filter .select{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.filterProducts .filterPro .filter .select select{
+    direction: rtl;
+    width: 176px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--primary, #7FD3DF);
+    padding-right: 10px;
+}
+.filterProducts .filterPro .filter .select .t5{
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family: Tajawal;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    width: max-content;
+}
+//view
+.filterProducts .filterPro .filter .view {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 60px;
+    margin-top: 18px;
+}
+.filterProducts .filterPro .filter .view p:not(.t6){
+    color: #C4C4C4;
+    font-family: Somar;
+    font-size: 14px;
+}
+.filterProducts .filterPro .filter .view .t6{
+    color: #444;
+    font-family: El Messiri;
+    font-size: 14px;
+    font-style: normal;
+}
+//icon 
+.filterProducts .filterPro .filter .ico{
+    display: flex;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+//line
+.filterProducts .filterPro .filter .ico .line{
+    direction: rtl;
+    margin-top: 15px;
+    margin-right: 17px;
+}
+.filterProducts .filterPro .filter .ico .line1{
+    border-bottom: 2px solid black;
+    width: 12px;
+}
+.filterProducts .filterPro .filter .ico .line2{
+    border-top: 2px solid black;
+    width: 16px;
+    margin-top: -14px;
+}
+//img
+.filterProducts .filterPro .filter .ico img{
+    width: 35px;
+    height: 35px;
+}
+.filterProducts .filterPro .filter .ico .t7{
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+//productss
+.filterProducts .filterPro .productss{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-right: 30px;
+    margin-top: -270px;
+}
+//product
+.filterProducts .filterPro .productss .product{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+//productt
+.filterProducts .filterPro .productss .product .productt{
+    position: relative;
+}
+
+//product button
+.filterProducts .filterPro .productss .product .productt button{
+    background-color: #7FD3DF;
+    border: 1px solid  #7FD3DF;
+    border-radius: 5%;
+    height: 7vh;
+    width: 98%;
+    position: absolute;
+    right: 2px;
+    top: 230px;
+}
+//div3
+.filterProducts .filterPro .productss .product .div3{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+//heartIcon
+.filterProducts .filterPro .productss .product .productt .heartIcon{
+    position: absolute;
+    top: 2%;
+    margin-left: 200px;
+}
+//price
+.filterProducts .filterPro .productss .product .pricce{
+    color: aqua;
+    padding-right: 0.5%;
+    direction: rtl;
+    font-family: Roboto;
+}
+//stars 
+.filterProducts .filterPro .productss .product .staars{
+    display: flex;
+}
+.filterProducts .filterPro .productss .product .staars .grey{
+    color: gray;
+}
+.filterProducts .filterPro .productss .product .staars .yellow{
+    color: yellow ;
+}
+//div4
+.filterProducts .filterPro .productss .product .div4{
+    display: flex;
+    justify-content: space-between;
+}
+//dec
+.filterProducts .filterPro .productss .product .dec{
+    text-decoration: line-through;
+}
+//p1
+.filterProducts .filterPro .productss .product .p1{
+    font-size: smaller;
+    padding-right: 20px;
+    font-family: Tajawal;
+}
+//sizze
+.filterProducts .filterPro .productss .product .sizze{
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+//sizze p
+.filterProducts .filterPro .productss .product .sizze p{
+    border: 1px solid gray;
+    width: 11%;
+    text-align: center;
+    margin: 3px;
+}
+//sizze xs
+.filterProducts .filterPro .productss .product .sizze .xs{
+    background-color: #7FD3DF;
+    border: 1px solid #7FD3DF;
+}
+
+//Aside code
+.side{
+    
+    margin-top: 50px;
+    margin-right: 100px;
+    }
+    .side .categories .D1
+    {
+      display: flex;
+    }
+    .side .categories .D1 h1
+    {
+      color: rgba(0, 0, 0, 0.65);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    .side .categories .D2{
+      display: flex;
+    padding: 0% 8px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 247px;
+    }
+    
+    .side .categories .D2 p
+    {
+      color: rgba(0, 0, 0, 0.60);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    
+    
+    
+    
+    
+    .side .categories .D3{
+      display: flex;
+    padding: 0% 8px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 292px;
+    }
+    
+    .side .categories .D3 p
+    {
+      color: rgba(0, 0, 0, 0.60);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    
+    
+    .side .categories .D4{
+      display: flex;
+    padding: 0px 8px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 262px;
+    }
+    .side .categories .D4 p
+    {
+      color: rgba(0, 0, 0, 0.60);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    
+    
+    .side .categories .D5{
+      display: flex;
+    padding: 0px 8px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 300px;
+    }
+    
+    .side .categories .D5 p
+    {
+      color: rgba(0, 0, 0, 0.60);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    
+    
+    .side .categories .D6{
+      display: flex;
+    padding: 0px 8px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 295px;
+    }
+    
+    .side .categories .D6 p
+    {
+      color: rgba(0, 0, 0, 0.60);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+      
+    }
+    
+    
+    .side .categories .D7{
+      display: flex;
+    padding: 0px 8px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 267px;
+    }
+    
+    .side .categories .D7 p
+    {
+      color: rgba(0, 0, 0, 0.60);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    
+    
+    
+    
+    .side .categories .D8{
+      display: flex;
+    padding: 0px 8px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 308px;
+    }
+    
+    .side .categories .D8 p
+    {
+      color: rgba(0, 0, 0, 0.60);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    
+    .side .categories
+    {
+      display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 16px;
+    }
+    
+    
+    
+    
+    // price Side
+    
+    
+    .side .priceSelector .priceD1
+    {
+      display: flex;
+      // margin-left: 3;
+    }
+    
+    .side .priceSelector .priceD1 h1
+    {
+      color: rgba(0, 0, 0, 0.65);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+      margin-left: 290px;
+    }
+    
+    .priceSelector .input
+    {
+      display: flex;
+    }
+    
+    
+    
+    .side .priceSelector .handleInput .RC{
+      display: flex;
+      justify-content:space-between;
+      width: 100%;
+    background-color: #7FD3DF;
+    }
+    .side .priceSelector .handleInput .RC p
+    {
+      width: 70px;
+      height: 30px;
+      border:1px solid rgba(0, 0, 0, 0.20);
+      border-radius: 10px;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      color: #A6A6A6;
+      text-align: right;
+      font-family: El Messiri;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: capitalize; 
+      transform: translateX(25px);
+      direction: rtl;
+    }
+    .side .priceSelector .handleInput .Egprices{
+      display: flex;
+      // justify-content: space-between;
+      justify-content: space-between;
+    }
+    
+    .side .priceSelector .handleInput .Egprices .EgPrice1
+    {
+      margin-right: -100px;
+      direction: rtl;
+    }
+    
+    .side .priceSelector .handleInput .Egprices .EgPrice2
+    {
+      direction: rtl;
+    }
+    
+    
+    
+    .side .priceSelector .handleInput .input
+    {
+      // margin-left: 27%;
+    }
+    
+    //size
+    .side .HandleSize {
+      margin-left: 270px;
+    }
+    .side .HandleSize .sizeDiv
+    {
+      display: flex;
+      // margin-left: 280%;
+      margin-top: 12%;
+    }
+    
+    .side .HandleSize .sizeDiv h1
+    {
+      color: rgba(0, 0, 0, 0.65);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    
+    .side .HandleSize .sizeSide
+    {
+      display: flex;
+      justify-content: right;
+      gap: 40px;
+      padding-left: 60px;
+      padding-top: 20px;
+    }
+    
+    .side .HandleSize .sizeSide p
+    {
+      display: flex;
+      justify-content: right;
+    }
+    
+    
+    .side .color .TextColor
+    {
+      display: flex;
+      margin-top: 14%;
+      margin-left: 300px;
+    }
+    .side .color .TextColor h1
+    {
+      color: rgba(0, 0, 0, 0.65);
+      font-family: Tajawal;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+     
+    }
+    
+    .color .imgs{
+        display: flex;
+      margin-left: 240px;
+     //width: ;
+      margin-top: 10px;
+    }
+    
+    .color .imgs img
+    {
+      margin-right: 6px;
+    }
+    
+    .LogoFProd 
+    {
+      width: max-content;
+      margin-left: 15%;
+    }
+    
+    .LogoFProd .textLogo{
+      display: flex;
+      margin-top: 14%;
+      // width: ;
+      // text-align: right;
+    //  justify-content: right;
+     
+    }
+    
+    .LogoFProd .textLogo h1
+    {
+      color: rgba(0, 0, 0, 0.65);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+      padding-left: 150px;
+    }
+    .LogoFProd .textLogo2
+    {
+    direction: rtl;
+    padding-right: 10px;
+    }
+    
+    .LogoFProd .textLogo2 p
+    {
+      color: rgba(0, 0, 0, 0.60);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    
+    
+    .special .koko
+    {
+      display: flex;
+      margin-top: 14%;
+    }
+    
+    .special .koko h1
+    {
+      color: rgba(0, 0, 0, 0.65);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+      padding-left: 200px;
+      
+    }
+    
+    .special .productI
+    {
+      display: flex;
+      margin-top: 9%;
+    }
+    
+    .special .productI   .hintAside
+    {
+      display: flex;
+      width: 187px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 16px;
+      flex-shrink: 0; 
+      // margin-right: 2%;
+      margin-left: 65px;
+      margin-top: 3%;
+        
+    }
+    
+    .special .productI   .hintAside p
+    {
+      width: 132px;
+      height: 36px;
+      color: rgba(0, 0, 0, 0.60);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+      padding-right: 30px;
+      width:190px;
+    }
+    
+.special .productI   .hintAside h3
+    {
+      color: rgba(0, 0, 0, 0.60);
+      text-align: right;
+      font-family: Tajawal;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+      padding-right: 30px;
+      direction: rtl;
+    }
+
+.special .koko
+{
+  width:350px;
+}
+
+
+// swiper
+.filterProducts .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.filterProducts .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filterProducts .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.filterProducts .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.filterProducts .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+}

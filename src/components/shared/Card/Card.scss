@@ -1,0 +1,96 @@
+.card
+{
+    display: flex;
+    width: 360px;
+    padding-left: 0px;
+    align-items: center;
+    gap: 82.398px;
+    margin-left: -1242px;
+    
+   
+}
+.card .btnCard{
+    margin-left: 280px;
+    border: none;
+    margin-top: 30px;
+}
+.card .salles 
+{
+    display: flex;
+    padding: 1%;
+    .delete{
+        margin-top: -30px;
+        
+    }
+}
+.card .salles img
+{
+    width: 78.474px;
+    height: 83.379px;
+    // margin-top: 20px;
+    margin-left: 90px;
+    transform: translateY(-60px);
+}
+
+.card .salles .conntaineeeer
+{
+    display: flex;
+    padding: 0px 14.866px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    transform: translateX(80px);
+    padding: 0% 6% % 5%;
+    margin-top: -10px;
+   ;
+
+p{
+    color: #000;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 17.344px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: -80px;
+    
+}
+.xxxx{
+    margin-top: -80px;
+    transform: translateX(30px);
+    display: flex;
+ h5
+{
+    color: #000;
+text-align: right;
+font-family: Tajawal;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: capitalize;
+margin-top: -9px;
+}
+
+h4{
+    color: var(--primary, #7FD3DF);
+text-align: right;
+font-family: Tajawal;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+transform: translateX(-40px);
+margin-top: -10px;
+}
+}
+
+
+.Counters
+{
+    margin-top: -40px;
+}
+}

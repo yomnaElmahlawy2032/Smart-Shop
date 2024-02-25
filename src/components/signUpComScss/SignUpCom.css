@@ -1,0 +1,191 @@
+.signUp {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.signUp .sign {
+  text-align: right;
+  margin-right: 150px;
+  margin-top: 70px;
+}
+
+.signUp .smShop p {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.signUp .para .para1 {
+  color: #000;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 40px;
+}
+
+.signUp .para .para2 {
+  color: #000;
+  font-family: Tajawal;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.signUp .create1 .account1 {
+  display: flex;
+  position: relative;
+}
+
+.signUp .create1 .account2 {
+  display: flex;
+  position: relative;
+}
+
+.signUp .create1 .account3 {
+  display: flex;
+  position: relative;
+}
+
+.signUp .create1 .account1 input {
+  display: flex;
+  width: 380px;
+  padding: 10px;
+  justify-content: flex-end;
+  text-align: right;
+  gap: 38px;
+  background: #FFF;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 145px;
+  margin-bottom: 20px;
+  border: 0px;
+}
+
+.signUp .create1 .account2 input {
+  display: flex;
+  width: 380px;
+  padding: 10px;
+  justify-content: flex-end;
+  text-align: right;
+  gap: 38px;
+  background: #FFF;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 145px;
+  margin-bottom: 20px;
+  border: 0px;
+}
+
+.signUp .create1 .account3 input {
+  display: flex;
+  width: 380px;
+  padding: 10px;
+  justify-content: flex-end;
+  text-align: right;
+  gap: 38px;
+  background: #FFF;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 145px;
+  margin-bottom: 50px;
+  border: 0px;
+}
+
+.signUp .create1 img {
+  position: absolute;
+  left: 160px;
+  top: 13px;
+}
+
+.signUp .create2 {
+  display: flex;
+  justify-content: right;
+  gap: 150px;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.signUp .create2 .forget {
+  text-decoration: none;
+  color: #7FD3DF;
+}
+
+.signUp .create2 .createAcc {
+  width: 120px;
+  height: 45px;
+  padding: 13px;
+  text-decoration: none;
+  gap: 32px;
+  border-radius: 8px;
+  background: var(--primary, #7FD3DF);
+  color: #FFF;
+}
+
+.signUp .para3 {
+  direction: rtl;
+  color: #000;
+  font-family: Tajawal;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.signUp .create3 {
+  width: 30%;
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: 45px;
+}
+
+.signUp .create3 img {
+  width: 45px;
+  height: 45px;
+}
+
+.signUp .signImg {
+  background-image: url("../../imgs/page6/Rectangle 3706 (1).png");
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.signUp .signImg .log {
+  display: block;
+  text-decoration: none;
+  margin-top: 48%;
+  display: flex;
+  width: 120px;
+  height: 45px;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 0px 88px 88px 0px;
+  background: #FFF;
+  color: black;
+}
+
+.signUp .signImg .signn {
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  height: 45px;
+  padding: 10px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  background-color: #7FD3DF;
+  border-radius: 0px 88px 88px 0px;
+  margin-top: 6px;
+}/*# sourceMappingURL=SignUpCom.css.map */

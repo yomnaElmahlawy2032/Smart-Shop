@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap");
+.brands .text4 p {
+  text-align: center;
+  margin-top: 100px;
+  border-bottom: 3px solid #7FD3DF;
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brands .brand {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.brands .brand .b3 {
+  margin-left: 10px;
+}/*# sourceMappingURL=Brands.css.map */

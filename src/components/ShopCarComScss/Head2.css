@@ -1,0 +1,42 @@
+.head2 {
+  background-image: url(../../imgs/page4/img.png);
+  background-repeat: no-repeat;
+  background-size: 100% 45vh;
+  width: 100%;
+  height: 45vh;
+  flex-shrink: 0;
+  margin-top: 40px;
+}
+
+.head2 .text4 {
+  color: white;
+  font-family: Tajawal;
+  padding-left: 300px;
+  padding-top: 100px;
+}
+
+.head2 .text4 h1 {
+  font-weight: bolder;
+}
+
+.head2 .text4 .t4 {
+  display: flex;
+  gap: 20px;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+.head2 .text4 .t4 .t1 {
+  text-decoration: none;
+  color: white;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.head2 p {
+  color: red;
+  font-size: 20px;
+  font-weight: bolder;
+}/*# sourceMappingURL=Head2.css.map */

@@ -1,0 +1,78 @@
+.similarProducts{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 180px;
+}
+.similarProducts .similar {
+    position: relative;
+}
+.similarProducts .similar img{
+    width: 225px;
+}
+.similarProducts .similar .heartIcon
+{
+    position: absolute;
+    top: 17px;
+    right: 17px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.similarProducts .similar .div1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 95%;
+}
+.similarProducts .similar .stars{
+    display: flex;
+}
+.similarProducts .similar .stars .grey{
+    color: gray;
+}
+.similarProducts .similar .stars .yellow{
+    color: yellow;
+}
+.similarProducts .similar .div2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.similarProducts .similar .price{
+    color: aqua;
+    padding-right: 0.5%;
+    direction: rtl;
+}
+.similarProducts .similar .size{
+    display: flex;
+    justify-content:right;
+    margin-right: 10px;
+}
+.similarProducts .similar .size p{
+    border: 1px solid grey;
+    width: 11%;
+    text-align: center;
+    margin: 3px;
+}
+.similarProducts .similar .size .aqua{
+    background-color: #7FD3DF;
+    border: 1px solid rgb(26, 131, 131);
+}
+.similarProducts .similar .link button{
+    background-color: #7FD3DF;
+    border: 1px solid  #7FD3DF;
+    border-radius: 5%;
+    height: 9vh;
+    width: 100%;
+    position: absolute;
+    top: 52%;
+}
+.similarProducts .similar .p1{
+    font-size: smaller;
+    padding-right: 20px;
+}
+.similarProducts .similar .div2 .dec{
+    text-decoration: line-through;
+    width: max-content;
+}

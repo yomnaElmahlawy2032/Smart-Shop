@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400;900&display=swap');
+.timer .text2{
+    background-color: #BDE6FC;
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+}
+.timer .text2 .photos{
+    display: flex;
+    justify-content: space-between;
+}
+.timer .text2 .text3{
+    text-align: center;
+    font-family: Tajawal;
+    margin-top: -40%;
+}
+.timer .text2 .photos .boys img{
+    margin-top: 45.6%;
+}
+.timer .text2 h3{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.timer .text2 .text3 .p2{
+    color: #9363B5;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+// .timer .text2 .text3 .time1 Countdown {
+//     display: flex;
+//     justify-content: center;
+// }
+.timer .text2 .text3 .time2{
+    display: flex;
+    justify-content: center;
+}
+.timer .text2 .text3 .time1 p{
+    padding: 0px 47px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.timer .text2 .text3 .time2 p{
+    padding: 0px 20px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.timer .text2 .text3 .num2{
+    color: #9363B5;
+}
+.timer .text2 .text3 .link1 button{
+    border-radius: 40px;
+    background: #9363B5;
+    border: 1px solid #9363B5 ;
+    width: 12%;
+    height: 9vh;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize
+}

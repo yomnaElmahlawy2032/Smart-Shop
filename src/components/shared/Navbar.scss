@@ -1,0 +1,52 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(147, 202, 222, 0.03);
+    
+}
+.icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 3%;
+}
+.text1{
+    margin-top: 3%;
+    font-family: El Messiri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+}
+.text1 .btNav{
+    border: 0;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    
+}
+.text1 .Nav{
+    border: 0;
+    font-size: 17px;
+    color: aqua;
+    text-decoration: none;
+    padding-left: 23px;
+}
+.text1 img{
+    display: inline-flex;
+    
+    margin-left: 30px;
+    vertical-align: middle;
+
+}
+.text1 .btNav:hover{
+    color: red;
+    cursor: pointer;
+}
+.text1 .Nav:hover{
+    color: red;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,335 @@
+//big cont // main section
+.BigCont{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 110px;
+}
+//cobon section{
+.BigCont .cobon{
+    display: flex;
+    width: 490px;
+    height: 610px;
+    margin-top: 18%;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: flex-end;
+    gap: 23px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 1px 11px 54px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 30px;
+}
+//cobon //frame1
+.BigCont .cobon .frame1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 15px;
+}
+//cobon //frame1 //h1 
+.cobon .frame1 h1{
+    color: #000;
+    text-align: center;
+    font-family: Tajawal;
+    font-size: 20.819px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    direction: rtl;
+}
+//cobon //frame1  //p
+.cobon .frame1 p{
+    color: rgba(0, 0, 0, 0.70);
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 13.879px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    direction: rtl;
+}
+//cobon //frame2 
+.cobon .frame2{
+    display: flex;
+    //align-items: center;
+    justify-content: flex-end;
+    gap: 32px;
+    margin-top: -15px;
+}
+ //button
+.cobon button{
+    display: flex;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 5px;
+    background: var(--primary, #7FD3DF);
+    color: #FFF;
+    border: none;
+}
+//cobon //frame2 //input
+.cobon .frame2 input{
+    display: flex;
+    width: 123px;
+    padding: 10px 0px 10px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.20)
+}
+//cobon //frame3
+.cobon .frame3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: -11px;
+}
+//cobon //frame3 //h1
+.cobon .frame3 h1{
+    color: #000;
+    text-align: center;
+    font-family: Tajawal;
+    font-size: 20.819px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    direction: rtl;
+}
+//cobon //frame3 //p
+.cobon .frame3 p{
+    color: rgba(0, 0, 0, 0.70);
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 13.879px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    direction: rtl;
+}
+//cobon //frame4
+.cobon .frame4{
+    display: flex;
+    width: 100px;
+    height: 120px;
+    padding: 0px 42px 10px 340px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 18px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    margin-top: -10px;
+    margin-left: 20px;
+}
+//cobon //frame4 //input
+.cobon .frame4 input{
+    width: 340px;
+    height: 90px;
+    // flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 13.88px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    direction: rtl;
+    margin-right: -15px;
+
+}
+//cobon //frame5
+.cobon .frame5{
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    // justify-content: space-around;
+}
+//cibon //frame5 //p
+.cobon .frame5 p{
+    color: #000;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    direction: rtl;
+    padding-right: -150px;
+}
+//cobon //frameText
+.cobon .frameText{
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+//cobon //frame6
+.cobon .frame6
+{
+    display: flex;
+}
+//cobon //frame6 //btn frame
+.cobon .btnFramee{
+    margin-right: 250px;
+    width:100%;
+}
+.cobon .btnFrame22{
+    width: 720px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+//}end of copon section
+
+//shop basket section {
+//shopBasket
+.BigCont .shopBasket{
+    width: 50%;
+}
+//text Basket h1
+.BigCont .shopBasket .textBasket h1{
+    color: #000;
+    padding-left: 450px;
+    padding-bottom: 30px;
+    padding-top: 150px;
+    width: max-content;
+    font-family: Tajawal;
+    font-size: 34.698px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+//shopB //second div
+.BigCont .shopBasket .shopB{
+    display: flex;
+    justify-content: space-between;   
+}
+//shopB // p
+.BigCont .shopBasket .shopB p{
+    color: #000;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+//shopB b1
+.BigCont .shopB .b1{
+    padding-left: 25px;
+}
+//shopB b2
+.BigCont .shopB .b2{
+    padding-right: 150px;
+}
+//basket //third div
+//basket 
+.BigCont .shopBasket .basket{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+//total
+.BigCont .total{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.BigCont .shopBasket .basket .total .shopPrice1{
+    padding-right: 70px;
+    padding-top: 40px;
+    width: max-content;
+    direction: rtl;
+}
+.BigCont .shopBasket .basket .total .shopPrice2{
+    padding-right: 10px;
+    padding-top: 40px;
+    width: max-content;
+    direction: rtl;
+}
+//counter
+.BigCont .shopBasket .basket .total .counter{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+//counter //decrease
+.BigCont .shopBasket .basket .total .counter .decrease{
+    width: 35px;
+    height: 28px;
+    border-radius: 25.071px 0px 0px 25.071px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(217, 217, 217, 0.50);
+    margin-right: 6px;
+}
+//counter //plusY
+.BigCont .shopBasket .basket .total .counter .plusY{
+    width: 35px;
+    height: 28px;
+    border-radius: 0px 25.071px 25.071px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(217, 217, 217, 0.50);
+    margin-left: 6px;
+}
+//right
+.BigCont .right{ 
+    display: flex;
+    margin-right: -28px;
+}
+//right nextImg
+.BigCont .right .nextImg{
+    text-align: right;
+    margin-right: 20px;
+    width: max-content;
+}
+//right img
+.BigCont .right img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+//delete
+.BigCont  .delete p{
+    display: block;
+    padding-top: 40px;
+    font-size: 20px;
+    color: #7FD3DF;
+}
+//}end shop basket section
+//borde
+.BigCont .borde{
+    border-bottom: 2px solid gray;
+    width: 650px;
+}
+//bord
+.BigCont .bord{
+    border-bottom: 2px solid gray;
+    width: 680px;
+}
+//btns
+.BigCont .btns{
+    display: flex;
+    justify-content: space-between;
+    font-family: Tajawal;
+    font-size: 20.819px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+//btns button
+.BigCont .btns button{
+    color: #7FD3DF;
+    border: 0px;
+}

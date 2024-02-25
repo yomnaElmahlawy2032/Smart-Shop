@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400;900&display=swap');
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+    width: 75%;
+    font-size: 15px;
+    font-family: Tajawal;
+    font-weight: 500;
+}
+.services .para2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+.services .gift{
+    display: flex;
+    text-align: right;
+
+}
+.services .wallet{
+    display: flex;
+    text-align: right;
+}
+.services .mobile{
+    display: flex;
+    text-align: right;
+}
+.services .car{
+    display: flex;
+    text-align: right;
+}
+.services .icon{
+    color: #7FD3DF;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+}

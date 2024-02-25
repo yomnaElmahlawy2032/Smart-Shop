@@ -1,0 +1,175 @@
+.sliderBrands {
+  display: grid;
+  grid-template-columns: 75% 15%;
+}
+
+.sliderBrand .sliderB {
+  display: flex;
+  justify-content: space-around;
+  padding: 12% 300px;
+  position: relative;
+  width: 100px;
+  margin-left: 20%;
+  gap: 16px;
+}
+
+.sliderBrand .sliderB .br img {
+  width: 200.252px;
+  height: 300.04px;
+}
+
+.sliderBrand .sliderB .br .divv1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sliderBrand .sliderB .br .starss {
+  display: flex;
+  margin-right: 20px;
+}
+
+.sliderBrand .sliderB .br .starss .grey {
+  color: gray;
+}
+
+.sliderBrand .sliderB .br .starss .yellow {
+  color: gold;
+  margin-left: 5%;
+}
+
+.sliderBrand .sliderB .br .divv2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sliderBrand .sliderB .br .divv2 .pricee .deco {
+  text-decoration: line-through;
+}
+
+.sliderBrand .sliderB .br .divv2 .p3 {
+  margin-right: 20px;
+}
+
+.sliderBrand .sliderB .br .sizee {
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+}
+
+.sliderBrand .sliderB .br .sizee p {
+  border: 1px solid grey;
+  width: 11%;
+  text-align: center;
+  margin: 3px;
+}
+
+.sliderBrand .sliderB .br .sizee .aquaa {
+  background-color: #7FD3DF;
+  border: 1px solid rgb(26, 131, 131);
+}
+
+.sliderBrand .sliderB .br .linkk button {
+  background-color: #7FD3DF;
+  border: 1px solid #7FD3DF;
+  border-radius: 10px;
+  height: 7vh;
+  width: 200px;
+  position: absolute;
+  bottom: 35%;
+}
+
+.sliderBrand .sliderB .br .heartIconn {
+  position: absolute;
+  top: 130px;
+  margin-left: 28%;
+}
+
+.menu {
+  border: 1px solid black;
+  width: 280px;
+  margin-top: 45%;
+  height: 400px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-right: 5%;
+  height: 529.8px;
+}
+
+.h1 {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  background-color: #7FD3DF;
+  color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 22.951px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  font-family: Tajawal;
+  padding: 6% 0%;
+}
+
+.p {
+  height: 84.918px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-family: Tajawal;
+}
+
+.menuLink a {
+  text-decoration: none;
+}
+
+.menuLink {
+  background: #FFF;
+  text-align: center;
+  justify-content: center;
+}
+
+.inLink {
+  width: 280px;
+  height: 84.918px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-top: 8%;
+  padding-left: 20%;
+}
+
+.inLinkBorder {
+  width: 280px;
+  height: 84.918px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuLink {
+  background: #FFF;
+  text-align: center;
+  justify-content: center;
+}
+
+.inLink {
+  width: 280px;
+  height: 84.918px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  display: flex;
+}
+
+.inLinkBorder {
+  width: 280px;
+  height: 84.918px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  padding-left: 20%;
+}/*# sourceMappingURL=SliderBrand.css.map */

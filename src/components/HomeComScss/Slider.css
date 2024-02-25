@@ -1,0 +1,124 @@
+@charset "UTF-8";
+.slider {
+  height: 100vh;
+}
+
+.Elipse3 {
+  position: relative;
+  top: 8%;
+  left: 12%;
+  width: 44%;
+}
+
+.Elipse2 {
+  position: absolute;
+  top: 23%;
+  left: 10%;
+  width: 30%;
+}
+
+.Elipse1 {
+  position: absolute;
+  top: 10%;
+  left: 9%;
+  width: 27%;
+}
+
+.pic .img1 {
+  margin-top: 140px;
+  margin-right: 150px;
+  width: 70%;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  background: rgba(147, 202, 222, 0.03);
+}
+
+.textslider {
+  margin-top: 14%;
+  margin-left: 13%;
+}
+
+.pargraph2 {
+  color: #000;
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pargraph1 {
+  color: #000;
+  text-align: center;
+  font-size: 27px;
+  font-family: Tajawal;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103.824%;
+  text-transform: capitalize;
+}
+
+.btnnum1 {
+  border-radius: 50px;
+  background-color: #7FD3DF;
+  color: #fff;
+  width: 170px;
+  height: 48px;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: 24.5%;
+  border: none;
+  cursor:  pointer;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.btnnum1:hover {
+  background-color: coral;
+}
+
+.sliders .swiper-button-next {
+  background-color: #fff;
+  border: 1px solid #7FD3DF;
+  border-radius: 50%;
+  padding: 0px 21px;
+  color: #7FD3DF;
+  margin-top: 20.9%;
+  margin-right: 42%;
+}
+
+.sliders .swiper-button-prev {
+  background-color: #fff;
+  border: 1px solid #7FD3DF;
+  border-radius: 100%;
+  padding: 0px 21px;
+  color: #7FD3DF;
+  margin-top: 20.9%;
+  margin-left: 42%;
+}
+
+.sliders .swiper-button-next:hover {
+  background-color: #7FD3DF;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sliders .swiper-button-prev:hover {
+  background-color: #7FD3DF;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sliders .swiper-button-next::after {
+  font-size: 0.9rem !important;
+}
+
+.sliders .swiper-button-prev::after {
+  font-size: 0.9rem !important;
+}/*# sourceMappingURL=Slider.css.map */
